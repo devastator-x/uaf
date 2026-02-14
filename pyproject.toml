@@ -1,7 +1,7 @@
 [project]
 name = "uaf"
 version = "1.0.1"
-description = "Real-time wireless AP scanner with active reconnaissance for Linux"
+description = "UAF (Ultimate AP Finder) - wireless AP scanner for PCI-DSS auditing"
 requires-python = ">=3.10"
 license = {text = "GPL-2.0-or-later"}
 readme = "README.md"

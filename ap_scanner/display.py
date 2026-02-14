@@ -5,6 +5,7 @@ import sys
 import unicodedata
 from datetime import datetime, timedelta
 
+from ap_scanner import __version__
 from ap_scanner.models import AccessPoint
 
 
@@ -187,7 +188,7 @@ class Display:
         band_str = f"Band: {self.band_filter or 'all'}"
         sort_str = f"Sort: {self.sort_field}"
         header_text = (
-            f" AP Scanner v1.0 | {interface} | Monitor | "
+            f" UAF v{__version__} | {interface} | Monitor | "
             f"CH: {current_channel:<3} | {elapsed_str} | "
             f"{band_str} | {sort_str}"
         )

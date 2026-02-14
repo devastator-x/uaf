@@ -8,8 +8,8 @@ from ap_scanner import __version__
 def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(
-        prog="ap-scanner",
-        description="Real-time wireless AP scanner for Linux",
+        prog="uaf",
+        description="UAF (Ultimate AP Finder) - wireless AP scanner for PCI-DSS auditing",
     )
     parser.add_argument(
         "-V", "--version",
