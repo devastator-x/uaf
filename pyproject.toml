@@ -1,6 +1,6 @@
 [project]
 name = "uaf"
-version = "1.0.0"
+version = "1.0.1"
 description = "Real-time wireless AP scanner with active reconnaissance for Linux"
 requires-python = ">=3.10"
 license = {text = "GPL-2.0-or-later"}
@@ -38,7 +38,7 @@ dev = [
 uaf = "ap_scanner.__main__:main"
 
 [build-system]
-requires = ["setuptools>=68.0"]
+requires = ["setuptools>=68.0,<75"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
