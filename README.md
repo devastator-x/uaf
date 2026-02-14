@@ -2,7 +2,7 @@
 
 A Linux-based wireless AP detection and analysis tool for PCI-DSS security auditing.
 
-> [한국어 버전은 아래에 있습니다 (Korean version below)](#uaf--ultimate-ap-finder-1)
+> **[한국어 (Korean)](#uaf--ultimate-ap-finder-1)**
 
 ## Why UAF?
 
@@ -135,16 +135,6 @@ pytest tests/ -v
 GPL-2.0-or-later. See [LICENSE](LICENSE) for details.
 
 ---
-
-<br>
-
-<h2 align="center">
-================================================================================<br>
-한국어 (KOREAN)<br>
-================================================================================
-</h2>
-
-<br>
 
 # UAF — Ultimate AP Finder
 
